@@ -40,5 +40,6 @@ class EulerGraph
             Console.WriteLine("Graf nije Eulerov.");
 
         Console.ReadKey();
+        Console.WriteLine("Test nove grane");
     }
 }

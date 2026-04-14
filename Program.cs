@@ -18,7 +18,7 @@ class EulerGraph
             { 5, new List<int> { 2, 3 } }
         };
 
-        Console.WriteLine("--- Provjera Eulerovog Grafa ---");
+        Console.WriteLine("--- Pr0vjera Eulerovog Grafa ---");
 
         // 2. Logika: Prebroji čvorove s neparnim brojem veza
         int oddDegreeNodes = 0;

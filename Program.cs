@@ -25,7 +25,7 @@ class EulerGraph
         foreach (var node in graph)
         {
             int degree = node.Value.Count;
-            Console.WriteLine($"Čvor {node.Key} ima stupanj: {degree}");
+            Console.WriteLine($"Čvor {node.Key} ima degree: {degree}");
 
             if (degree % 2 != 0) oddDegreeNodes++;
         }
